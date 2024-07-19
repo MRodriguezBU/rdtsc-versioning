@@ -302,7 +302,7 @@ class RQProvider {
       }
     }
 
-    return NULL;
+    return static_cast<T>(NULL);
   }
 
   // invoke at the start of each traversal
