@@ -33,7 +33,7 @@ namespace vcas_bst_ns {
         nodeptr right;
         RECLAIM_RCU_RCUHEAD_DEFN;
 
-        volatile long long ts;
+        volatile timestamp_t ts;
         nodeptr nextv;
 
         Node() {}
